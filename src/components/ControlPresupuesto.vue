@@ -84,6 +84,7 @@
   .dos-columnas {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .dos-columnas > :first-child {
