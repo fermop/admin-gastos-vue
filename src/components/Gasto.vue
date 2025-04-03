@@ -64,11 +64,11 @@
   }
 
   .icono {
-    width: 5rem;
+    width: 4rem;
   }
 
   .cantidad {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 900;
     margin: 0;
   }
@@ -79,25 +79,33 @@
 
   .categoria {
     color: var(--gris);
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-transform: uppercase;
     font-weight: 900;
   }
 
   .nombre {
     color: var(--gris-oscuro);
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 700;
     cursor: pointer;
   }
 
   .fecha {
     color: var(--gris-oscuro);
-    font-size: 1.6rem;
+    font-size: 1rem;
     font-weight: 900;
   }
 
   .fecha span {
     font-weight: 400;
+  }
+
+  @media (min-width: 560px) {
+    .icono {width: 5rem;}
+    .cantidad {font-size: 3rem;}
+    .categoria {font-size: 1.2rem;}
+    .nombre {font-size: 2.4rem;}
+    .fecha {font-size: 1.6rem;}
   }
 </style>
